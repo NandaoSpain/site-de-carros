@@ -210,5 +210,33 @@ section .card-item {
 
 .card-item img {
     width: 85%;
-    
+}
+
+.card-item h3 {
+    width: 80%;
+}
+
+.card-item p {
+    width: 90%;
+    font-style: italic;
+    color: #00000080;
+}
+
+.card-item button {
+    width: 90%;
+    padding: 15px 0px;
+    border: none;
+    background: #00285f;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.card-item button:hover {
+    background: #dedede;
+    color: #00285f; 
 }
